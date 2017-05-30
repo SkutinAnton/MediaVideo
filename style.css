@@ -570,18 +570,19 @@ a {
     margin-left: 62.7%;
 }
 
-.footer .social img {
+.footer .social i {
+    color: silver;
     margin-right: 30px;
     opacity: 0.5;
     transition: 0.3s;
 }
 
-.footer .social img:last-child {
+.footer .social i:last-child {
     margin-right: 0;
 }
 
-.footer .social img:hover {
-    opacity: 0.8;
+.footer .social i:hover {
+    opacity: 0.9;
     cursor: pointer;
     transition: 0.3s;
 }
@@ -753,8 +754,8 @@ a {
         margin-left: 24.8%;
     }
 
-    .footer .social img {
-        margin-right: 8px;
+    .footer .social i {
+        margin-right: 10px;
     }
 }
 
